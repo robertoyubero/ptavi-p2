@@ -25,7 +25,7 @@ if __name__ == "__main__":
         #elijo el tipo de operacion de la linea
         operacion = linea[0]
         #el primer operando lo meto directamente en resultado
-
+        resultado = int(linea[1])
         #recorro la linea desde 2operando
         for k in range(2, len(linea)):
             operando = int(linea[k])
